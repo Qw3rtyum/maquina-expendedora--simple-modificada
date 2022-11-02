@@ -96,4 +96,11 @@ public class MaquinaExpendedoraSimple {
         // Queda preparada para el proximo cliente
         balanceClienteActual = 0;
     }
+    
+    /**
+     * Vacía todo el dinero acumulado
+     */
+    public void vaciarDepositoDinero() {
+        totalDineroAcumulado = 0;
+    }
 }
